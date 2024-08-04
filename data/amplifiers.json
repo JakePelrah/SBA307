@@ -1,0 +1,58 @@
+{
+  "Fender_Jazz_Custom": {
+    "price": "6,500.00",
+    "sale": "5,525.00",
+    "full_name":"Fender Custom Shop Artisan Maple Burl",
+    "image_url": "../assets/images/basses/FJ_Custom/FJ_Custom_Full.webp",
+    "body": {
+      "shape": "Artisan Maple Burl Jazz Bass",
+      "finish": "WLS Undercoat",
+      "top": "Maple burl",
+      "wood": "Ash"
+    },
+    "neck": {
+      "shape": "1960 Jazz Bass U",
+      "wood": "AAA Roasted Flame Maple",
+      "length": "34\"",
+      "joint": "Bolt-on"
+    },
+    "fingerboard": {
+      "material": "AAA Rosewood",
+      "inlay": "Dots",
+      "number": "20 Medium Jumbo"
+    },
+    "electronics": {
+      "configuration": "2x volume, 1x tone",
+      "neck": "Fender Custom Shop Hand-Wound '60s Jazz Bass Heavy Beveled Alnico V Single-coil",
+      "bridge": "Fender Custom Shop Hand-Wound '60s Jazz Bass Heavy Beveled Alnico V Single-coil"
+    }
+  },
+  "Fender_Jazz_Pink": {
+    "price": "4,825.00",
+    "sale": "3,860.00",
+    "full_name":"Fender Custom Shop Limited-Edition '60 Super Faded",
+    "image_url": "../assets/images/basses/FJ_Pink/FJ_Pink_Full.webp",
+    "body": {
+      "shape": "Jazz",
+      "finish": "Nitrocellulose Lacquer",
+      "top": "Alder",
+      "wood": "Alder"
+    },
+    "neck": {
+      "shape": "1960 Jazz Bass U",
+      "wood": "Quartersawn Maple",
+      "length": "34\"",
+      "joint": "Bolt-on"
+    },
+    "fingerboard": {
+      "material": "Laminated Rosewood",
+      "inlay": "Vintage Clay Dot",
+      "number": "20, Medium Vintage"
+    },
+    "electronics": {
+      "configuration": "2x volume, 1x tone",
+      "neck": "Fender Custom Shop Hand-Wound Vintage Jazz Bass",
+      "bridge": "Fender Custom Shop Hand-Wound Vintage Jazz Bass"
+    }
+  }
+}

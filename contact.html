@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- INSERT HEAD -->
+  <script src="./src/js/head.js"></script>
+
+  <body>
+    <!-- INSERT HEADER -->
+    <script src="./src/js/header.js"></script>
+
+    <!-- ITEM HEADER -->
+    <div class="item-header d-flex justify-content-center align-items-center">
+      Contact Us
+    </div>
+
+    <form
+      id="contact-form"
+      class="mt-5 mx-5 p-5 row"
+      style="background-color: rgb(220, 220, 220)"
+    >
+      <span
+        >Please complete all inputs so that we can better serve your
+        inquiry.</span
+      >
+
+      <div class="row mt-3">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email"
+            aria-label="Email"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="(508)-555-5555"
+            aria-label="Phone"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            placeholder="Comments..."
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <button class="btn bg-dark text-light mt-5" type="submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <!-- CONTACT FORM FUNCTION -->
+    <script>
+      const contactForm = document.querySelector("#contact-form");
+      contactForm.onsubmit = (e) => {
+        e.preventDefault();
+        alert("Thank you for your message");
+        contactForm.reset();
+      };
+    </script>
+
+    <!-- FOOTER -->
+    <script src="./src/js/footer.js"></script>
+  </body>
+</html>
