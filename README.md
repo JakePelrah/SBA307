@@ -1,10 +1,12 @@
 # Description
 My website is a platform that sells guitars.
 
+Project Link: [https://github.com/JakePelrah/SBA307](https://github.com/JakePelrah/SBA307)
+
 # Technical Specs
 * pages are not in a folder because I'm loading html content using scripts. I didn't want to use templates and I wanted to keep this assignment reactless.
 
-* the first two items in featured gear have detail pages associated with them, the rest I didn't want to implement because I've met the minimum requirement.
+* the first two items in featured gear have detail pages associated.
 
 * i'm using document.write which may be bad practice is some cases
 
